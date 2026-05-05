@@ -567,123 +567,108 @@
   </section>
 
   <!-- CONTACT FORM -->
-  <section id="contact" style="position:relative; padding:64px 0; background:var(--surface-2); overflow:hidden;">
-    <div class="glow-orb" style="width:400px; height:400px; background:#FFD9A8; top:80px; left:25%; opacity:0.5;"></div>
-    <div style="position:relative; max-width:768px; margin:0 auto; padding:0 20px;">
-      <div style="text-align:center; margin-bottom:40px;">
-        <div class="badge-startup" style="background:var(--brand-soft); border-color:#FCD9A8; color:var(--brand-dark); margin-bottom:20px;">Let's plan your home</div>
-        <h2 class="font-display" style="font-size:32px; font-weight:bold; line-height:1.05; letter-spacing:-0.02em;">
-          Tell us about <span class="gradient-text-static">your plot.</span>
-        </h2>
-        <p style="margin-top:16px; font-size:15px; color:var(--ink-soft);">We'll send your personalized quote on WhatsApp within 2 hours.</p>
-      </div>
+  
+    ><section id="contact" style="position:relative; padding:64px 0; background:var(--surface-2); overflow:hidden;">
+  <div class="glow-orb" style="width:400px; height:400px; background:#FFD9A8; top:80px; left:25%; opacity:0.5;"></div>
+  <div style="position:relative; max-width:768px; margin:0 auto; padding:0 20px;">
+    
+    <div style="text-align:center; margin-bottom:40px;">
+      <div class="badge-startup" style="background:var(--brand-soft); border-color:#FCD9A8; color:var(--brand-dark); margin-bottom:20px;">Let's plan your home</div>
+      <h2 class="font-display" style="font-size:32px; font-weight:bold; line-height:1.05; letter-spacing:-0.02em;">
+        Tell us about <span class="gradient-text-static">your plot.</span>
+      </h2>
+      <p style="margin-top:16px; font-size:15px; color:var(--ink-soft);">We'll send your personalized quote on WhatsApp within 2 hours.</p>
+    </div>
 
-      <div class="card-soft" style="border-radius:24px; padding:24px;">
-        <div id="form-success" style="display:none; text-align:center; padding:40px 0;">
-          <div style="width:64px; height:64px; border-radius:50%; background:var(--vastu-soft); display:flex; align-items:center; justify-content:center; margin:0 auto 16px;">
-            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--vastu)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+    <div class="card-soft" style="border-radius:24px; padding:24px; background: white; border: 1px solid var(--border);">
+      
+      <form id="contact-form" action="https://formspree.io/f/maqvjwrn" method="POST" style="display:flex; flex-direction:column; gap:16px;">
+        
+        <div style="display:grid; grid-template-columns:1fr; gap:16px;">
+          <div>
+            <label style="display:block; font-size:11px; font-weight:bold; margin-bottom:6px; text-transform:uppercase; letter-spacing:0.1em;">Your Name</label>
+            <input type="text" name="Name" required placeholder="Rajesh Kumar" style="width:100%; padding:12px 16px; background:var(--surface-2); border:1px solid var(--border); border-radius:12px; font-size:14px; color:var(--ink);" />
           </div>
-          <h3 class="font-display" style="font-size:24px; font-weight:bold; margin-bottom:8px;">Got it! Talk soon. 🎉</h3>
-          <p style="color:var(--ink-soft); font-size:14px;">We'll WhatsApp you within 2 hours with your personalized quote.</p>
+          <div>
+            <label style="display:block; font-size:11px; font-weight:bold; margin-bottom:6px; text-transform:uppercase; letter-spacing:0.1em;">WhatsApp Number</label>
+            <input type="tel" name="WhatsApp" required placeholder="+91 98765 43210" style="width:100%; padding:12px 16px; background:var(--surface-2); border:1px solid var(--border); border-radius:12px; font-size:14px; color:var(--ink);" />
+          </div>
         </div>
 
-        <form id="contact-form" style="display:flex; flex-direction:column; gap:16px;">
-          <div style="display:grid; grid-template-columns:1fr; gap:16px;" class="sm:grid-cols-2">
-            <div>
-              <label style="display:block; font-size:11px; font-weight:bold; margin-bottom:6px; text-transform:uppercase; letter-spacing:0.1em;">Your Name</label>
-              <input type="text" required placeholder="Rajesh Kumar" style="width:100%; padding:12px 16px; background:var(--surface-2); border:1px solid var(--border); border-radius:12px; font-size:14px; color:var(--ink);" />
-            </div>
-            <div>
-              <label style="display:block; font-size:11px; font-weight:bold; margin-bottom:6px; text-transform:uppercase; letter-spacing:0.1em;">WhatsApp</label>
-              <input type="tel" required placeholder="+91 98765 43210" style="width:100%; padding:12px 16px; background:var(--surface-2); border:1px solid var(--border); border-radius:12px; font-size:14px; color:var(--ink);" />
-            </div>
-          </div>
-
-          <div style="display:grid; grid-template-columns:1fr; gap:16px;" class="sm:grid-cols-2">
-            <div>
-              <label style="display:block; font-size:11px; font-weight:bold; margin-bottom:6px; text-transform:uppercase; letter-spacing:0.1em;">Plot Size (ft)</label>
-              <input type="text" placeholder="30 × 40" style="width:100%; padding:12px 16px; background:var(--surface-2); border:1px solid var(--border); border-radius:12px; font-size:14px; color:var(--ink);" />
-            </div>
-            <div>
-              <label style="display:block; font-size:11px; font-weight:bold; margin-bottom:6px; text-transform:uppercase; letter-spacing:0.1em;">City</label>
-              <input type="text" placeholder="Bengaluru" style="width:100%; padding:12px 16px; background:var(--surface-2); border:1px solid var(--border); border-radius:12px; font-size:14px; color:var(--ink);" />
-            </div>
-          </div>
-
+        <div style="display:grid; grid-template-columns:1fr; gap:16px;">
           <div>
-            <label style="display:block; font-size:11px; font-weight:bold; margin-bottom:8px; text-transform:uppercase; letter-spacing:0.1em;">Plot Facing</label>
-            <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:8px;">
-              <label style="cursor:pointer;">
-                <input type="radio" name="facing" value="North" class="sr-only" />
-                <div class="facing-btn" style="padding:10px 16px; background:var(--surface-2); border:1px solid var(--border); border-radius:12px; text-align:center; font-size:12px; font-weight:600; color:var(--ink-soft); transition:all 0.2s;">North</div>
-              </label>
-              <label style="cursor:pointer;">
-                <input type="radio" name="facing" value="South" class="sr-only" />
-                <div class="facing-btn" style="padding:10px 16px; background:var(--surface-2); border:1px solid var(--border); border-radius:12px; text-align:center; font-size:12px; font-weight:600; color:var(--ink-soft); transition:all 0.2s;">South</div>
-              </label>
-              <label style="cursor:pointer;">
-                <input type="radio" name="facing" value="East" class="sr-only" />
-                <div class="facing-btn" style="padding:10px 16px; background:var(--surface-2); border:1px solid var(--border); border-radius:12px; text-align:center; font-size:12px; font-weight:600; color:var(--ink-soft); transition:all 0.2s;">East</div>
-              </label>
-              <label style="cursor:pointer;">
-                <input type="radio" name="facing" value="West" class="sr-only" />
-                <div class="facing-btn" style="padding:10px 16px; background:var(--surface-2); border:1px solid var(--border); border-radius:12px; text-align:center; font-size:12px; font-weight:600; color:var(--ink-soft); transition:all 0.2s;">West</div>
-              </label>
-            </div>
+            <label style="display:block; font-size:11px; font-weight:bold; margin-bottom:6px; text-transform:uppercase; letter-spacing:0.1em;">Plot Size (ft)</label>
+            <input type="text" name="Plot_Size" placeholder="30 × 40" style="width:100%; padding:12px 16px; background:var(--surface-2); border:1px solid var(--border); border-radius:12px; font-size:14px; color:var(--ink);" />
           </div>
-
-          <div style="display:grid; grid-template-columns:1fr; gap:16px;" class="sm:grid-cols-2">
-            <div>
-              <label style="display:block; font-size:11px; font-weight:bold; margin-bottom:6px; text-transform:uppercase; letter-spacing:0.1em;">Floors</label>
-              <select style="width:100%; padding:12px 16px; background:var(--surface-2); border:1px solid var(--border); border-radius:12px; font-size:14px; color:var(--ink); appearance:none; cursor:pointer;">
-                <option>Ground Only</option>
-                <option>G + 1</option>
-                <option>G + 2</option>
-                <option>G + 3</option>
-              </select>
-            </div>
-            <div>
-              <label style="display:block; font-size:11px; font-weight:bold; margin-bottom:6px; text-transform:uppercase; letter-spacing:0.1em;">Plan Interested</label>
-              <select style="width:100%; padding:12px 16px; background:var(--surface-2); border:1px solid var(--border); border-radius:12px; font-size:14px; color:var(--ink); appearance:none; cursor:pointer;">
-                <option>Basic — ₹4,999</option>
-                <option>Plan + Cost — ₹9,999</option>
-                <option>Complete — ₹19,999</option>
-                <option>Help me decide</option>
-              </select>
-            </div>
+          <div>
+            <label style="display:block; font-size:11px; font-weight:bold; margin-bottom:6px; text-transform:uppercase; letter-spacing:0.1em;">City</label>
+            <input type="text" name="City" placeholder="Mumbai / Vadodara" style="width:100%; padding:12px 16px; background:var(--surface-2); border:1px solid var(--border); border-radius:12px; font-size:14px; color:var(--ink);" />
           </div>
+        </div>
 
-          <div style="display:flex; align-items:center; justify-content:space-between; padding:16px; background:var(--vastu-soft); border:1px solid var(--vastu); border-radius:12px;">
-            <div style="display:flex; align-items:center; gap:12px;">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--vastu)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M16.2 7.8a9 9 0 010 8.4 9 9 0 00-8.4 0 9 9 0 010-8.4 9 9 0 008.4 0"/></svg>
-              <div>
-                <div style="font-size:13px; font-weight:bold; color:var(--vastu-dark);">Apply Vastu Compliance</div>
-                <div style="font-size:11px; color:var(--vastu-dark); opacity:0.8;">Direction-based room placement</div>
-              </div>
-            </div>
-            <button type="button" id="vastu-toggle" style="position:relative; width:48px; height:24px; border-radius:999px; background:var(--vastu); border:none; cursor:pointer; transition:background 0.3s; padding:0;">
-              <div id="vastu-knob" style="position:absolute; top:2px; width:20px; height:20px; background:white; border-radius:50%; transition:left 0.3s; left:26px; box-shadow:0 1px 3px rgba(0,0,0,0.2);"></div>
-            </button>
+        <div>
+          <label style="display:block; font-size:11px; font-weight:bold; margin-bottom:8px; text-transform:uppercase; letter-spacing:0.1em;">Plot Facing</label>
+          <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:8px;">
+            <label style="cursor:pointer; text-align:center;">
+              <input type="radio" name="Facing" value="North" required /> <span style="font-size:12px;">North</span>
+            </label>
+            <label style="cursor:pointer; text-align:center;">
+              <input type="radio" name="Facing" value="South" /> <span style="font-size:12px;">South</span>
+            </label>
+            <label style="cursor:pointer; text-align:center;">
+              <input type="radio" name="Facing" value="East" /> <span style="font-size:12px;">East</span>
+            </label>
+            <label style="cursor:pointer; text-align:center;">
+              <input type="radio" name="Facing" value="West" /> <span style="font-size:12px;">West</span>
+            </label>
           </div>
+        </div>
 
-          <button type="submit" style="width:100%; padding:16px; background:var(--brand); color:white; font-weight:bold; border-radius:999px; border:none; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:8px; font-size:15px; box-shadow: 0 4px 14px rgba(232,134,26,0.25), 0 2px 4px rgba(232,134,26,0.15); transition:all 0.3s;">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            Send My Plot Details
-          </button>
+        <div style="display:grid; grid-template-columns:1fr; gap:16px;">
+          <div>
+            <label style="display:block; font-size:11px; font-weight:bold; margin-bottom:6px; text-transform:uppercase; letter-spacing:0.1em;">Floors</label>
+            <select name="Floors" style="width:100%; padding:12px 16px; background:var(--surface-2); border:1px solid var(--border); border-radius:12px; font-size:14px; color:var(--ink); cursor:pointer;">
+              <option value="Ground Only">Ground Only</option>
+              <option value="G + 1">G + 1</option>
+              <option value="G + 2">G + 2</option>
+              <option value="G + 3">G + 3</option>
+            </select>
+          </div>
+          <div>
+            <label style="display:block; font-size:11px; font-weight:bold; margin-bottom:6px; text-transform:uppercase; letter-spacing:0.1em;">Plan Interested</label>
+            <select name="Plan_Type" style="width:100%; padding:12px 16px; background:var(--surface-2); border:1px solid var(--border); border-radius:12px; font-size:14px; color:var(--ink); cursor:pointer;">
+              <option value="Basic">Basic — ₹4,999</option>
+              <option value="Plan + Cost">Plan + Cost — ₹9,999</option>
+              <option value="Complete">Complete — ₹19,999</option>
+              <option value="Help me decide">Help me decide</option>
+            </select>
+          </div>
+        </div>
 
-          <p style="text-align:center; font-size:11px; color:var(--muted);">🔒 Your details are private. Quote sent within 2 hours.</p>
-        </form>
-      </div>
+        <div style="padding:12px; background:var(--vastu-soft); border:1px solid var(--vastu); border-radius:12px; display:flex; align-items:center; gap:10px;">
+          <input type="checkbox" name="Vastu_Required" value="Yes" style="width:18px; height:18px;">
+          <span style="font-size:13px; font-weight:bold; color:var(--vastu-dark);">Apply Vastu Compliance</span>
+        </div>
 
-      <div style="text-align:center; margin-top:24px;">
-        <p style="font-size:13px; color:var(--ink-soft); margin-bottom:12px;">Or chat directly —</p>
-        <a href="https://wa.me/919574456327?text=Hi%20BuildClarity" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; padding:12px 24px; background:#25D366; color:white; font-weight:600; border-radius:999px; text-decoration:none; box-shadow: 0 4px 12px rgba(37,211,102,0.2); transition:all 0.3s;">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-          WhatsApp Us
-        </a>
-      </div>
+        <button type="submit" style="width:100%; padding:16px; background:var(--brand); color:white; font-weight:bold; border-radius:999px; border:none; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:8px; font-size:15px; box-shadow: 0 4px 14px rgba(232,134,26,0.25); transition:all 0.3s;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          Send My Plot Details
+        </button>
+
+        <p style="text-align:center; font-size:11px; color:var(--muted);">🔒 Your details are private. Quote sent within 2 hours.</p>
+      </form>
     </div>
-  </section>
+
+    <div style="text-align:center; margin-top:24px;">
+      <p style="font-size:13px; color:var(--ink-soft); margin-bottom:12px;">Or chat directly —</p>
+      <a href="https://wa.me/919574456327?text=Hi%20BuildClarity" target="_blank" rel="noopener noreferrer" style="display:inline-flex; align-items:center; gap:8px; padding:12px 24px; background:#25D366; color:white; font-weight:600; border-radius:999px; text-decoration:none; box-shadow: 0 4px 12px rgba(37,211,102,0.2); transition:all 0.3s;">
+        WhatsApp Us
+      </a>
+    </div>
+
+  </div>
+</section>
+
 
   <!-- FOOTER (Pan India removed) -->
   <footer style="background:var(--ink); color:white; padding:48px 0;">
