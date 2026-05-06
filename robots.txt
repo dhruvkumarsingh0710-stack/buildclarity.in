@@ -1,4 +1,6 @@
+# BuildClarity Robots.txt
 User-agent: *
 Allow: /
+Disallow: /thank-you.html
 
 Sitemap: https://buildclarity.in/sitemap.xml
