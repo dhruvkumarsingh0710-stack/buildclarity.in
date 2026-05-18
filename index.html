@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BuildClarity - Engineer-Led Vastu-Compliant Home Planning | Starting ₹4,999</title>
-  <meta name="description" content="Get municipality-compliant home plans with 2D drawings, 3D designs & structural details in 5 days. Starting at just ₹4,999. Save 67% vs architects. PAN India service.">
-  <meta name="keywords" content="home plan, vastu compliant, house design, 2D floor plan, 3D elevation, civil engineer, Maharashtra, Gujarat, municipality approval">
+  <title>BuildClarity - Engineer-Led Home Planning, Civil Engineering & Construction | Starting ₹4,999</title>
+  <meta name="description" content="Get municipality-compliant home plans, civil engineering services & construction across India. Plans starting at just ₹4,999. Construction services in Maharashtra & Gujarat.">
+  <meta name="keywords" content="home plan, vastu compliant, civil engineer, construction services, BOQ, supervision, Maharashtra, Gujarat, municipality approval">
   
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="images/logo.png">
@@ -19,38 +19,32 @@
   <style>
     * { font-family: 'Inter', sans-serif; }
     
-    /* Logo glow animation */
     @keyframes glow {
       0%, 100% { box-shadow: 0 0 20px rgba(249, 115, 22, 0.4); }
       50% { box-shadow: 0 0 40px rgba(249, 115, 22, 0.8); }
     }
     .logo-glow { animation: glow 3s ease-in-out infinite; }
     
-    /* Floating animation */
     @keyframes float {
       0%, 100% { transform: translateY(0); }
       50% { transform: translateY(-10px); }
     }
     .float-animation { animation: float 4s ease-in-out infinite; }
     
-    /* Pulse dot */
     @keyframes pulse-dot {
       0%, 100% { opacity: 1; }
       50% { opacity: 0.4; }
     }
     .pulse-dot { animation: pulse-dot 2s ease-in-out infinite; }
     
-    /* Smooth scroll */
     html { scroll-behavior: smooth; }
     
-    /* WhatsApp button bounce */
     @keyframes wa-bounce {
       0%, 100% { transform: scale(1); }
       50% { transform: scale(1.1); }
     }
     .wa-button:hover { animation: wa-bounce 0.6s ease-in-out; }
     
-    /* WhatsApp pulse ring */
     @keyframes ring {
       0% { transform: scale(1); opacity: 1; }
       100% { transform: scale(1.5); opacity: 0; }
@@ -63,6 +57,19 @@
       animation: ring 1.5s ease-out infinite;
       z-index: -1;
     }
+    
+    @keyframes slideDown {
+      from { transform: translateY(-20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    .slide-down { animation: slideDown 0.5s ease-out; }
+    
+    /* Discount badge animation */
+    @keyframes wiggle {
+      0%, 100% { transform: rotate(-3deg); }
+      50% { transform: rotate(3deg); }
+    }
+    .wiggle { animation: wiggle 2s ease-in-out infinite; }
   </style>
 </head>
 
@@ -79,7 +86,7 @@
         </div>
       </div>
       <a href="#contact" class="bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-orange-600 transition">
-        Get Plan
+        Get Started
       </a>
     </div>
   </nav>
@@ -88,47 +95,40 @@
   <section class="bg-orange-50 px-6 py-12 sm:py-20">
     <div class="max-w-4xl mx-auto text-center">
       
-      <!-- Large floating logo -->
       <div class="flex justify-center mb-8">
         <img src="images/logo.png" alt="BuildClarity Logo" class="w-24 h-24 sm:w-32 sm:h-32 rounded-full object-cover border-4 border-orange-400 logo-glow float-animation">
       </div>
       
-      <!-- Now Accepting Badge -->
       <div class="inline-flex items-center gap-2 bg-white border border-orange-200 rounded-full px-4 py-2 mb-6 shadow-sm">
         <span class="w-2 h-2 bg-orange-500 rounded-full pulse-dot"></span>
         <span class="text-sm font-semibold text-gray-700">NOW ACCEPTING ORDERS</span>
       </div>
       
-      <!-- Main Heading -->
       <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
         Your dream home,<br>
         <span class="text-orange-500">planned right</span> the<br>
         first time.
       </h1>
       
-      <!-- Subheading -->
       <p class="text-base sm:text-lg text-gray-600 mb-4 max-w-2xl mx-auto">
         Skip the <strong>₹15,000–₹20,000</strong> architect consultation. Get a 
-        <strong>municipality-compliant home plan</strong> with 2D drawings, 3D designs & 
-        structural details — delivered in 5 days.
+        <strong>municipality-compliant home plan</strong>, civil engineering & construction services from 
+        licensed engineers — delivered in 5 days.
       </p>
       
-      <!-- Price highlight -->
       <p class="text-green-600 font-semibold mb-8">
-        Starting at just ₹4,999 · <span class="line-through text-gray-400">₹15,000</span> · Save 67%
+        Plans Starting at just ₹4,999 · <span class="line-through text-gray-400">₹6,999</span> · Save 29%
       </p>
       
-      <!-- CTA Buttons -->
       <div class="flex flex-col sm:flex-row gap-4 justify-center mb-10">
         <a href="#contact" class="bg-orange-500 text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-orange-600 transition shadow-lg">
-          📐 Get Your Home Plan Now
+          📐 Get Started Now
         </a>
-        <a href="#how-it-works" class="bg-white text-gray-800 border-2 border-gray-200 px-8 py-4 rounded-full text-lg font-semibold hover:border-orange-500 transition">
-          See How It Works
+        <a href="#services" class="bg-white text-gray-800 border-2 border-gray-200 px-8 py-4 rounded-full text-lg font-semibold hover:border-orange-500 transition">
+          View All Services
         </a>
       </div>
       
-      <!-- Trust badges -->
       <div class="flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-6 justify-center text-sm text-gray-700">
         <div class="flex items-center gap-2 justify-center">✅ <span>Municipality Compliant</span></div>
         <div class="flex items-center gap-2 justify-center">⚡ <span>5-Day Delivery</span></div>
@@ -140,15 +140,15 @@
 
   <!-- ============ SERVICE AREA BANNER ============ -->
   <section class="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-6">
-    <div class="max-w-5xl mx-auto flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 text-center">
+    <div class="max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 text-center">
       <div class="flex items-center gap-2">
         <span class="text-2xl">🇮🇳</span>
-        <span class="font-semibold">Home Plans: <strong>PAN India</strong></span>
+        <span class="font-semibold text-sm md:text-base">Home Plans & Civil Engineering: <strong>PAN India</strong></span>
       </div>
-      <div class="hidden sm:block w-px h-8 bg-white opacity-50"></div>
+      <div class="hidden md:block w-px h-8 bg-white opacity-50"></div>
       <div class="flex items-center gap-2">
         <span class="text-2xl">🏗️</span>
-        <span class="font-semibold">Construction: <strong>Maharashtra & Gujarat</strong></span>
+        <span class="font-semibold text-sm md:text-base">Construction Services: <strong>Maharashtra & Gujarat</strong></span>
       </div>
     </div>
   </section>
@@ -159,76 +159,172 @@
       <div class="text-center mb-12">
         <p class="text-orange-500 font-bold tracking-widest mb-2">SIMPLE PROCESS</p>
         <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">How It Works</h2>
-        <p class="text-gray-600">Get your professional home plan in 3 easy steps. No office visits needed.</p>
+        <p class="text-gray-600">Get your professional services in 3 easy steps. No office visits needed.</p>
       </div>
       
       <div class="grid sm:grid-cols-3 gap-6">
         <div class="bg-orange-50 rounded-2xl p-8 text-center">
           <div class="w-14 h-14 bg-orange-500 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">1</div>
           <h3 class="text-xl font-bold mb-3">Share Your Requirements</h3>
-          <p class="text-gray-600 text-sm">Tell us your plot size, number of rooms, budget, and any special requirements. Upload your plot documents via WhatsApp or our form.</p>
+          <p class="text-gray-600 text-sm">Tell us your plot size, service needed, budget, and any special requirements via WhatsApp or our form.</p>
         </div>
         
         <div class="bg-orange-50 rounded-2xl p-8 text-center">
           <div class="w-14 h-14 bg-orange-500 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">2</div>
           <h3 class="text-xl font-bold mb-3">We Design Your Plan</h3>
-          <p class="text-gray-600 text-sm">Our licensed civil engineer creates your municipality-compliant floor plan with proper structural calculations and Vastu compliance.</p>
+          <p class="text-gray-600 text-sm">Our licensed civil engineers handle your project — from planning to structural analysis to construction supervision.</p>
         </div>
         
         <div class="bg-orange-50 rounded-2xl p-8 text-center">
           <div class="w-14 h-14 bg-orange-500 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-6">3</div>
-          <h3 class="text-xl font-bold mb-3">Get Your Plan</h3>
-          <p class="text-gray-600 text-sm">Receive your complete plan with 2D drawings, 3D views, structural details, and all documents needed for building permission.</p>
+          <h3 class="text-xl font-bold mb-3">Get Your Deliverables</h3>
+          <p class="text-gray-600 text-sm">Receive your complete plan, reports, or completed construction with full quality assurance and support.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ============ WHAT YOU GET (SERVICES) ============ -->
-  <section class="bg-orange-50 px-6 py-16">
-    <div class="max-w-5xl mx-auto">
+  <!-- ============ ALL SERVICES (ONE GRID) ============ -->
+  <section id="services" class="bg-orange-50 px-6 py-16">
+    <div class="max-w-6xl mx-auto">
       <div class="text-center mb-12">
-        <p class="text-orange-500 font-bold tracking-widest mb-2">WHAT YOU GET</p>
-        <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">Complete Home Planning Services</h2>
-        <p class="text-gray-600">Everything you need to start building your dream home</p>
+        <p class="text-orange-500 font-bold tracking-widest mb-2">OUR SERVICES</p>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">Complete Engineering Solutions</h2>
+        <p class="text-gray-600 max-w-2xl mx-auto">From home planning to construction — everything you need under one roof</p>
       </div>
       
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition">
-          <div class="text-4xl mb-4">📐</div>
-          <h3 class="text-xl font-bold mb-3">2D Floor Plans</h3>
-          <p class="text-gray-600 text-sm">Detailed architectural floor plans showing room layout, dimensions, door-window positions, and furniture placement for municipality submission.</p>
+      <!-- HOME PLANNING SERVICES -->
+      <div class="mb-12">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="bg-orange-500 text-white px-4 py-1 rounded-full text-sm font-bold">🏠 HOME PLANNING</div>
+          <span class="text-xs text-gray-500">Available PAN India</span>
         </div>
         
-        <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition">
-          <div class="text-4xl mb-4">🏗️</div>
-          <h3 class="text-xl font-bold mb-3">Structural Drawings</h3>
-          <p class="text-gray-600 text-sm">Complete structural design including column layout, beam details, foundation plan, and reinforcement details by a licensed civil engineer.</p>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition border-t-4 border-orange-500">
+            <div class="text-4xl mb-4">📐</div>
+            <h3 class="text-xl font-bold mb-3">2D Floor Plans</h3>
+            <p class="text-gray-600 text-sm">Detailed architectural floor plans with room layout, dimensions, door-window positions for municipality submission.</p>
+          </div>
+          
+          <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition border-t-4 border-orange-500">
+            <div class="text-4xl mb-4">🏗️</div>
+            <h3 class="text-xl font-bold mb-3">Structural Drawings</h3>
+            <p class="text-gray-600 text-sm">Complete structural design including column layout, beam details, foundation plan, and reinforcement details.</p>
+          </div>
+          
+          <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition border-t-4 border-orange-500">
+            <div class="text-4xl mb-4">🏡</div>
+            <h3 class="text-xl font-bold mb-3">3D Elevation Design</h3>
+            <p class="text-gray-600 text-sm">Beautiful 3D front elevation and exterior design to visualize your home before construction.</p>
+          </div>
+          
+          <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition border-t-4 border-orange-500">
+            <div class="text-4xl mb-4">📋</div>
+            <h3 class="text-xl font-bold mb-3">Municipality Documents</h3>
+            <p class="text-gray-600 text-sm">All drawings formatted per nagar nigam requirements for quick building plan approval.</p>
+          </div>
+          
+          <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition border-t-4 border-orange-500">
+            <div class="text-4xl mb-4">🧭</div>
+            <h3 class="text-xl font-bold mb-3">Vastu Compliance</h3>
+            <p class="text-gray-600 text-sm">Room placement aligned with Vastu Shastra principles for positive energy flow.</p>
+          </div>
+          
+          <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition border-t-4 border-orange-500">
+            <div class="text-4xl mb-4">💰</div>
+            <h3 class="text-xl font-bold mb-3">Cost Estimation</h3>
+            <p class="text-gray-600 text-sm">Detailed material and construction cost estimate to plan your budget accurately.</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- CIVIL ENGINEERING SERVICES -->
+      <div class="mb-12">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="bg-blue-600 text-white px-4 py-1 rounded-full text-sm font-bold">👷 CIVIL ENGINEERING</div>
+          <span class="text-xs text-gray-500">Available PAN India</span>
         </div>
         
-        <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition">
-          <div class="text-4xl mb-4">🏡</div>
-          <h3 class="text-xl font-bold mb-3">3D Elevation Design</h3>
-          <p class="text-gray-600 text-sm">Beautiful 3D front elevation and exterior design to visualize exactly how your home will look after construction.</p>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition border-t-4 border-blue-600">
+            <div class="text-4xl mb-4">👁️</div>
+            <h3 class="text-xl font-bold mb-3">Site Supervision</h3>
+            <p class="text-gray-600 text-sm">Professional on-site & remote supervision by licensed engineers to ensure quality construction work.</p>
+          </div>
+          
+          <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition border-t-4 border-blue-600">
+            <div class="text-4xl mb-4">📊</div>
+            <h3 class="text-xl font-bold mb-3">BOQ Preparation</h3>
+            <p class="text-gray-600 text-sm">Detailed Bill of Quantities with accurate material estimates, labor costs, and project budgeting.</p>
+          </div>
+          
+          <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition border-t-4 border-blue-600">
+            <div class="text-4xl mb-4">✅</div>
+            <h3 class="text-xl font-bold mb-3">Drawing Verification</h3>
+            <p class="text-gray-600 text-sm">Expert verification of existing drawings for structural safety, compliance, and design accuracy.</p>
+          </div>
+          
+          <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition border-t-4 border-blue-600">
+            <div class="text-4xl mb-4">💼</div>
+            <h3 class="text-xl font-bold mb-3">Engineering Consultancy</h3>
+            <p class="text-gray-600 text-sm">Professional consultation for structural design, material selection, and project planning by experts.</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- CONSTRUCTION SERVICES -->
+      <div>
+        <div class="flex items-center gap-3 mb-6">
+          <div class="bg-green-600 text-white px-4 py-1 rounded-full text-sm font-bold">🏘️ CONSTRUCTION</div>
+          <span class="text-xs text-gray-500">Maharashtra & Gujarat Only</span>
         </div>
         
-        <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition">
-          <div class="text-4xl mb-4">📋</div>
-          <h3 class="text-xl font-bold mb-3">Municipality Documents</h3>
-          <p class="text-gray-600 text-sm">All drawings and documents formatted per nagar nigam / municipality requirements for quick building plan approval.</p>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition border-t-4 border-green-600">
+            <div class="text-4xl mb-4">🏠</div>
+            <h3 class="text-xl font-bold mb-3">Full Home Construction</h3>
+            <p class="text-gray-600 text-sm">Complete turnkey home construction from foundation to finishing, delivered as per plan.</p>
+          </div>
+          
+          <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition border-t-4 border-green-600">
+            <div class="text-4xl mb-4">🔨</div>
+            <h3 class="text-xl font-bold mb-3">Renovation & Remodeling</h3>
+            <p class="text-gray-600 text-sm">Transform your existing home with expert renovation, extensions, and structural modifications.</p>
+          </div>
+          
+          <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition border-t-4 border-green-600">
+            <div class="text-4xl mb-4">🏗️</div>
+            <h3 class="text-xl font-bold mb-3">Foundation Work</h3>
+            <p class="text-gray-600 text-sm">Strong foundation construction with proper soil analysis and reinforced concrete work.</p>
+          </div>
+          
+          <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition border-t-4 border-green-600">
+            <div class="text-4xl mb-4">🛋️</div>
+            <h3 class="text-xl font-bold mb-3">Interior Construction</h3>
+            <p class="text-gray-600 text-sm">Complete interior work including walls, ceilings, flooring, and built-in fixtures.</p>
+          </div>
+          
+          <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition border-t-4 border-green-600">
+            <div class="text-4xl mb-4">💧</div>
+            <h3 class="text-xl font-bold mb-3">Plumbing & Electrical</h3>
+            <p class="text-gray-600 text-sm">Professional plumbing installation and electrical wiring as per safety standards and codes.</p>
+          </div>
+          
+          <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition border-t-4 border-green-600">
+            <div class="text-4xl mb-4">🎨</div>
+            <h3 class="text-xl font-bold mb-3">Painting & Finishing</h3>
+            <p class="text-gray-600 text-sm">Quality painting, tile work, and final finishing touches to make your home move-in ready.</p>
+          </div>
         </div>
-        
-        <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition">
-          <div class="text-4xl mb-4">🧭</div>
-          <h3 class="text-xl font-bold mb-3">Vastu Compliance</h3>
-          <p class="text-gray-600 text-sm">Room placement and design aligned with Vastu Shastra principles for positive energy flow in your new home.</p>
-        </div>
-        
-        <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition">
-          <div class="text-4xl mb-4">💰</div>
-          <h3 class="text-xl font-bold mb-3">Cost Estimation</h3>
-          <p class="text-gray-600 text-sm">Detailed material and construction cost estimate so you can plan your budget accurately before starting work.</p>
-        </div>
+      </div>
+      
+      <!-- CTA after services -->
+      <div class="mt-12 text-center">
+        <p class="text-gray-600 mb-4">Need a custom service or have questions?</p>
+        <a href="#contact" class="inline-block bg-orange-500 text-white px-8 py-3 rounded-full font-semibold hover:bg-orange-600 transition shadow-lg">
+          💬 Get Custom Quote
+        </a>
       </div>
     </div>
   </section>
@@ -237,6 +333,9 @@
   <section id="pricing" class="bg-white px-6 py-16">
     <div class="max-w-6xl mx-auto">
       <div class="text-center mb-12">
+        <div class="inline-block bg-red-100 text-red-600 px-4 py-2 rounded-full text-sm font-bold mb-3 wiggle">
+          🔥 LIMITED TIME OFFER - LAUNCH PRICING
+        </div>
         <p class="text-orange-500 font-bold tracking-widest mb-2">TRANSPARENT PRICING</p>
         <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">Choose Your Home Plan Package</h2>
         <p class="text-gray-600">No hidden charges. Pay only for what you need.</p>
@@ -245,11 +344,19 @@
       <div class="grid md:grid-cols-3 gap-6">
         
         <!-- BASIC PLAN -->
-        <div class="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm hover:shadow-lg transition">
+        <div class="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm hover:shadow-lg transition relative">
+          <div class="absolute top-4 right-4 bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full">
+            SAVE 29%
+          </div>
+          
           <h3 class="text-2xl font-bold text-center mb-4">Basic Plan</h3>
+          <div class="text-center mb-2">
+            <span class="text-gray-400 line-through text-xl">₹6,999</span>
+          </div>
           <div class="text-center mb-2">
             <span class="text-5xl font-extrabold text-orange-500">₹4,999</span>
           </div>
+          <p class="text-center text-green-600 text-sm font-semibold mb-2">You Save ₹2,000!</p>
           <p class="text-center text-gray-500 text-sm mb-6">Perfect for small plots up to 1200 sq ft</p>
           
           <ul class="space-y-3 mb-8 text-sm">
@@ -271,10 +378,18 @@
             <span class="bg-orange-500 text-white text-xs font-bold px-4 py-1 rounded-full whitespace-nowrap">⭐ MOST POPULAR</span>
           </div>
           
+          <div class="absolute top-4 right-4 bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full">
+            SAVE 33%
+          </div>
+          
           <h3 class="text-2xl font-bold text-center mb-4 mt-2">Premium Plan</h3>
+          <div class="text-center mb-2">
+            <span class="text-gray-400 line-through text-xl">₹14,999</span>
+          </div>
           <div class="text-center mb-2">
             <span class="text-5xl font-extrabold text-orange-500">₹9,999</span>
           </div>
+          <p class="text-center text-green-600 text-sm font-semibold mb-2">You Save ₹5,000!</p>
           <p class="text-center text-gray-500 text-sm mb-6">Complete plan for plots up to 2500 sq ft</p>
           
           <ul class="space-y-3 mb-8 text-sm">
@@ -293,11 +408,19 @@
         </div>
         
         <!-- ULTIMATE PLAN -->
-        <div class="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm hover:shadow-lg transition">
+        <div class="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm hover:shadow-lg transition relative">
+          <div class="absolute top-4 right-4 bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full">
+            SAVE 33%
+          </div>
+          
           <h3 class="text-2xl font-bold text-center mb-4">Ultimate Plan</h3>
+          <div class="text-center mb-2">
+            <span class="text-gray-400 line-through text-xl">₹29,999</span>
+          </div>
           <div class="text-center mb-2">
             <span class="text-5xl font-extrabold text-orange-500">₹19,999</span>
           </div>
+          <p class="text-center text-green-600 text-sm font-semibold mb-2">You Save ₹10,000!</p>
           <p class="text-center text-gray-500 text-sm mb-6">For villas, duplexes & custom homes</p>
           
           <ul class="space-y-3 mb-8 text-sm">
@@ -317,10 +440,24 @@
         
       </div>
       
-      <!-- Construction note for Maharashtra & Gujarat -->
-      <div class="mt-10 bg-orange-50 border-2 border-orange-200 rounded-2xl p-6 text-center max-w-3xl mx-auto">
-        <p class="text-lg font-bold text-gray-900 mb-2">🏗️ Need Construction Services Too?</p>
-        <p class="text-gray-700 text-sm">We offer <strong>complete construction & contracting services in Maharashtra and Gujarat</strong>. Contact us for a custom quote.</p>
+      <!-- Extra Revision Cost Note -->
+      <div class="mt-10 bg-yellow-50 border-2 border-yellow-300 rounded-2xl p-6 max-w-3xl mx-auto">
+        <div class="flex items-start gap-3">
+          <span class="text-3xl">📝</span>
+          <div>
+            <p class="text-lg font-bold text-gray-900 mb-2">Extra Revisions Available</p>
+            <p class="text-gray-700 text-sm">Need more revisions than included in your plan? Additional revisions are available at <strong class="text-orange-600">₹1,000 – ₹1,500 per revision</strong> depending on the complexity of changes. Contact us for details.</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Construction & Civil Engineering Quote Box -->
+      <div class="mt-6 bg-orange-50 border-2 border-orange-200 rounded-2xl p-6 text-center max-w-3xl mx-auto">
+        <p class="text-lg font-bold text-gray-900 mb-2">🏗️ Civil Engineering & Construction Services</p>
+        <p class="text-gray-700 text-sm mb-3">Pricing for civil engineering services (PAN India) and construction services (Maharashtra & Gujarat) is customized based on project requirements.</p>
+        <a href="#contact" class="inline-block bg-orange-500 text-white px-6 py-2 rounded-full font-semibold hover:bg-orange-600 transition text-sm">
+          Get Custom Quote →
+        </a>
       </div>
     </div>
   </section>
@@ -335,7 +472,6 @@
       </div>
       
       <div class="grid md:grid-cols-3 gap-6">
-        <!-- Testimonial 1 - Maharashtra -->
         <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition">
           <div class="text-yellow-400 mb-3 text-lg">⭐⭐⭐⭐⭐</div>
           <p class="text-gray-700 text-sm mb-4 italic">"BuildClarity saved me almost ₹15,000 compared to local architects in Pune. The plan was delivered in 5 days and approved by municipality on the first try! Highly professional team."</p>
@@ -348,7 +484,6 @@
           </div>
         </div>
         
-        <!-- Testimonial 2 - Gujarat -->
         <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition">
           <div class="text-yellow-400 mb-3 text-lg">⭐⭐⭐⭐⭐</div>
           <p class="text-gray-700 text-sm mb-4 italic">"Excellent service from planning to construction. The 3D elevation helped me visualize my dream home. They even handled the entire construction in Ahmedabad. Worth every rupee!"</p>
@@ -361,7 +496,6 @@
           </div>
         </div>
         
-        <!-- Testimonial 3 - Maharashtra -->
         <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition">
           <div class="text-yellow-400 mb-3 text-lg">⭐⭐⭐⭐⭐</div>
           <p class="text-gray-700 text-sm mb-4 italic">"Perfect Vastu compliance and detailed structural design. The licensed engineer explained everything clearly over WhatsApp. Got my building permission within 2 weeks. Excellent work!"</p>
@@ -382,13 +516,12 @@
     <div class="max-w-5xl mx-auto">
       <div class="text-center mb-12">
         <p class="text-orange-500 font-bold tracking-widest mb-2">GET STARTED</p>
-        <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">Request Your Home Plan</h2>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-4">Request Your Service</h2>
         <p class="text-gray-600">Fill the form below and we'll get back to you within 24 hours</p>
       </div>
       
       <div class="grid lg:grid-cols-2 gap-8">
         
-        <!-- Contact Info -->
         <div class="bg-gradient-to-br from-orange-500 to-orange-600 rounded-2xl p-8 text-white">
           <h3 class="text-2xl font-bold mb-6">Let's Build Together 🏡</h3>
           
@@ -421,7 +554,7 @@
               <div class="bg-white bg-opacity-20 p-3 rounded-full">🏗️</div>
               <div>
                 <p class="font-semibold">Service Areas</p>
-                <p class="text-white opacity-90 text-sm">Home Plans: PAN India</p>
+                <p class="text-white opacity-90 text-sm">Home Plans & Civil Engineering: PAN India</p>
                 <p class="text-white opacity-90 text-sm">Construction: Maharashtra & Gujarat</p>
               </div>
             </div>
@@ -435,68 +568,106 @@
           </div>
         </div>
         
-        <!-- Contact Form -->
-        <form id="contactForm" onsubmit="sendToWhatsApp(event)" class="bg-orange-50 rounded-2xl p-8">
-          <div class="mb-4">
-            <label class="block text-sm font-semibold mb-2 text-gray-700">Full Name *</label>
-            <input type="text" id="name" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-200" placeholder="Your full name">
+        <div class="bg-orange-50 rounded-2xl p-8">
+          
+          <div id="successMessage" class="hidden bg-green-100 border-2 border-green-500 text-green-800 px-6 py-4 rounded-xl mb-6 slide-down">
+            <div class="flex items-start gap-3">
+              <span class="text-2xl">✅</span>
+              <div>
+                <p class="font-bold">Thank You! Request Sent Successfully</p>
+                <p class="text-sm mt-1">We've received your details via email AND opened WhatsApp for instant chat. We'll respond within 24 hours!</p>
+              </div>
+            </div>
           </div>
           
-          <div class="mb-4">
-            <label class="block text-sm font-semibold mb-2 text-gray-700">Phone Number *</label>
-            <input type="tel" id="phone" required pattern="[0-9]{10}" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-200" placeholder="10-digit mobile number">
+          <div id="errorMessage" class="hidden bg-red-100 border-2 border-red-500 text-red-800 px-6 py-4 rounded-xl mb-6">
+            <div class="flex items-start gap-3">
+              <span class="text-2xl">⚠️</span>
+              <div>
+                <p class="font-bold">Oops! Something went wrong</p>
+                <p class="text-sm mt-1">Please try again or contact us directly on WhatsApp: +91 95744 56327</p>
+              </div>
+            </div>
           </div>
           
-          <div class="mb-4">
-            <label class="block text-sm font-semibold mb-2 text-gray-700">Email Address</label>
-            <input type="email" id="email" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-200" placeholder="your@email.com">
-          </div>
-          
-          <div class="mb-4">
-            <label class="block text-sm font-semibold mb-2 text-gray-700">City / State *</label>
-            <input type="text" id="city" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-200" placeholder="e.g., Pune, Maharashtra">
-          </div>
-          
-          <div class="mb-4">
-            <label class="block text-sm font-semibold mb-2 text-gray-700">Plot Size (sq ft) *</label>
-            <input type="text" id="plotSize" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-200" placeholder="e.g., 1500 sq ft">
-          </div>
-          
-          <div class="mb-4">
-            <label class="block text-sm font-semibold mb-2 text-gray-700">Select Package *</label>
-            <select id="package" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-200 bg-white">
-              <option value="">-- Choose a package --</option>
-              <option value="Basic Plan (₹4,999)">Basic Plan (₹4,999)</option>
-              <option value="Premium Plan (₹9,999)">Premium Plan (₹9,999)</option>
-              <option value="Ultimate Plan (₹19,999)">Ultimate Plan (₹19,999)</option>
-              <option value="Construction Services (Maharashtra/Gujarat)">Construction Services (MH/GJ)</option>
-              <option value="Not Sure - Need Consultation">Not Sure - Need Consultation</option>
-            </select>
-          </div>
-          
-          <div class="mb-6">
-            <label class="block text-sm font-semibold mb-2 text-gray-700">Additional Requirements</label>
-            <textarea id="message" rows="3" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-200" placeholder="Tell us about rooms, special requirements, etc."></textarea>
-          </div>
-          
-          <button type="submit" class="w-full bg-orange-500 text-white py-4 rounded-full font-bold text-lg hover:bg-orange-600 transition shadow-lg">
-            📨 Send Request via WhatsApp
-          </button>
-          
-          <p class="text-xs text-gray-500 text-center mt-4">
-            By submitting, you'll be redirected to WhatsApp with your details pre-filled
-          </p>
-        </form>
+          <form id="contactForm" onsubmit="handleFormSubmit(event)">
+            <div class="mb-4">
+              <label class="block text-sm font-semibold mb-2 text-gray-700">Full Name *</label>
+              <input type="text" id="name" name="name" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-200" placeholder="Your full name">
+            </div>
+            
+            <div class="mb-4">
+              <label class="block text-sm font-semibold mb-2 text-gray-700">Phone Number *</label>
+              <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-200" placeholder="10-digit mobile number">
+            </div>
+            
+            <div class="mb-4">
+              <label class="block text-sm font-semibold mb-2 text-gray-700">Email Address</label>
+              <input type="email" id="email" name="email" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-200" placeholder="your@email.com">
+            </div>
+            
+            <div class="mb-4">
+              <label class="block text-sm font-semibold mb-2 text-gray-700">City / State *</label>
+              <input type="text" id="city" name="city" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-200" placeholder="e.g., Pune, Maharashtra">
+            </div>
+            
+            <div class="mb-4">
+              <label class="block text-sm font-semibold mb-2 text-gray-700">Plot Size (sq ft)</label>
+              <input type="text" id="plotSize" name="plotSize" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-200" placeholder="e.g., 1500 sq ft (if applicable)">
+            </div>
+            
+            <div class="mb-4">
+              <label class="block text-sm font-semibold mb-2 text-gray-700">Select Service *</label>
+              <select id="package" name="package" required class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-200 bg-white">
+                <option value="">-- Choose a service --</option>
+                <optgroup label="🏠 Home Planning">
+                  <option value="Basic Plan (₹4,999)">Basic Plan (₹4,999)</option>
+                  <option value="Premium Plan (₹9,999)">Premium Plan (₹9,999)</option>
+                  <option value="Ultimate Plan (₹19,999)">Ultimate Plan (₹19,999)</option>
+                </optgroup>
+                <optgroup label="👷 Civil Engineering">
+                  <option value="Site Supervision">Site Supervision</option>
+                  <option value="BOQ Preparation">BOQ Preparation</option>
+                  <option value="Drawing Verification">Drawing Verification</option>
+                  <option value="Engineering Consultancy">Engineering Consultancy</option>
+                </optgroup>
+                <optgroup label="🏗️ Construction (MH/GJ)">
+                  <option value="Full Home Construction">Full Home Construction</option>
+                  <option value="Renovation & Remodeling">Renovation & Remodeling</option>
+                  <option value="Foundation Work">Foundation Work</option>
+                  <option value="Interior Construction">Interior Construction</option>
+                  <option value="Plumbing & Electrical">Plumbing & Electrical</option>
+                  <option value="Painting & Finishing">Painting & Finishing</option>
+                </optgroup>
+                <option value="Not Sure - Need Consultation">Not Sure - Need Consultation</option>
+              </select>
+            </div>
+            
+            <div class="mb-6">
+              <label class="block text-sm font-semibold mb-2 text-gray-700">Additional Requirements</label>
+              <textarea id="message" name="message" rows="3" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-200" placeholder="Tell us about your project, rooms, special requirements, etc."></textarea>
+            </div>
+            
+            <button type="submit" id="submitBtn" class="w-full bg-orange-500 text-white py-4 rounded-full font-bold text-lg hover:bg-orange-600 transition shadow-lg">
+              📨 Send Request (Email + WhatsApp)
+            </button>
+            
+            <p class="text-xs text-gray-500 text-center mt-4">
+              Your details will be sent to our email AND WhatsApp for fastest response
+            </p>
+          </form>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- ============ FOOTER ============ -->
   <footer class="bg-gray-900 text-white px-6 py-12">
-    <div class="max-w-5xl mx-auto">
+    <div class="max-w-6xl mx-auto">
+      
+      <!-- Top section with logo & info -->
       <div class="grid md:grid-cols-3 gap-8 mb-8">
         
-        <!-- Logo & Tagline -->
         <div>
           <div class="flex items-center gap-3 mb-4">
             <img src="images/logo.png" alt="BuildClarity Logo" class="w-12 h-12 rounded-full object-cover border-2 border-orange-400">
@@ -505,23 +676,22 @@
               <p class="text-xs text-gray-400">Plan Clearly. Build Confidently.</p>
             </div>
           </div>
-          <p class="text-gray-400 text-sm mb-3">Engineer-led, Vastu-compliant home planning services.</p>
-          <p class="text-gray-400 text-sm">🇮🇳 <strong class="text-white">Plans:</strong> PAN India</p>
+          <p class="text-gray-400 text-sm mb-3">Engineer-led, Vastu-compliant planning, civil engineering & construction services.</p>
+          <p class="text-gray-400 text-sm">🇮🇳 <strong class="text-white">Plans & Civil Engg:</strong> PAN India</p>
           <p class="text-gray-400 text-sm">🏗️ <strong class="text-white">Construction:</strong> Maharashtra & Gujarat</p>
         </div>
         
-        <!-- Quick Links -->
         <div>
           <h4 class="font-bold mb-4 text-orange-400">Quick Links</h4>
           <ul class="space-y-2 text-sm text-gray-400">
             <li><a href="#how-it-works" class="hover:text-orange-400 transition">How It Works</a></li>
+            <li><a href="#services" class="hover:text-orange-400 transition">Our Services</a></li>
             <li><a href="#pricing" class="hover:text-orange-400 transition">Pricing</a></li>
-            <li><a href="#contact" class="hover:text-orange-400 transition">Get a Plan</a></li>
+            <li><a href="#contact" class="hover:text-orange-400 transition">Get Started</a></li>
             <li><a href="https://wa.me/919574456327" class="hover:text-orange-400 transition">WhatsApp</a></li>
           </ul>
         </div>
         
-        <!-- Contact -->
         <div>
           <h4 class="font-bold mb-4 text-orange-400">Get In Touch</h4>
           <ul class="space-y-2 text-sm text-gray-400">
@@ -530,6 +700,34 @@
             <li>🌐 buildclarity.in</li>
           </ul>
         </div>
+      </div>
+      
+      <!-- Home Plan Pricing Summary in Footer -->
+      <div class="border-t border-gray-800 pt-8 mb-8">
+        <h4 class="font-bold mb-6 text-orange-400 text-center text-lg">🏠 Home Plan Packages - Quick Reference</h4>
+        <div class="grid sm:grid-cols-3 gap-4 max-w-4xl mx-auto">
+          <div class="bg-gray-800 rounded-xl p-4 text-center">
+            <p class="text-orange-400 font-bold text-sm mb-1">BASIC PLAN</p>
+            <p class="text-gray-500 line-through text-xs">₹6,999</p>
+            <p class="text-white text-2xl font-extrabold">₹4,999</p>
+            <p class="text-gray-400 text-xs mt-1">Up to 1200 sq ft</p>
+          </div>
+          <div class="bg-gray-800 rounded-xl p-4 text-center border border-orange-500">
+            <p class="text-orange-400 font-bold text-sm mb-1">PREMIUM ⭐</p>
+            <p class="text-gray-500 line-through text-xs">₹14,999</p>
+            <p class="text-white text-2xl font-extrabold">₹9,999</p>
+            <p class="text-gray-400 text-xs mt-1">Up to 2500 sq ft</p>
+          </div>
+          <div class="bg-gray-800 rounded-xl p-4 text-center">
+            <p class="text-orange-400 font-bold text-sm mb-1">ULTIMATE</p>
+            <p class="text-gray-500 line-through text-xs">₹29,999</p>
+            <p class="text-white text-2xl font-extrabold">₹19,999</p>
+            <p class="text-gray-400 text-xs mt-1">Villas & Custom</p>
+          </div>
+        </div>
+        <p class="text-center text-gray-500 text-xs mt-4">
+          📝 Extra revisions: ₹1,000 - ₹1,500 per revision | Civil Engineering & Construction: Custom quotes
+        </p>
       </div>
       
       <div class="border-t border-gray-800 pt-6 text-center text-gray-500 text-sm">
@@ -548,31 +746,80 @@
     </svg>
   </a>
 
-  <!-- ============ FORM TO WHATSAPP SCRIPT ============ -->
+  <!-- ============ FORM HANDLER ============ -->
   <script>
-    function sendToWhatsApp(e) {
+    async function handleFormSubmit(e) {
       e.preventDefault();
+      
+      const submitBtn = document.getElementById('submitBtn');
+      const successMsg = document.getElementById('successMessage');
+      const errorMsg = document.getElementById('errorMessage');
+      
+      successMsg.classList.add('hidden');
+      errorMsg.classList.add('hidden');
+      
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = '⏳ Sending...';
       
       const name = document.getElementById('name').value;
       const phone = document.getElementById('phone').value;
       const email = document.getElementById('email').value || 'Not provided';
       const city = document.getElementById('city').value;
-      const plotSize = document.getElementById('plotSize').value;
-      const package = document.getElementById('package').value;
+      const plotSize = document.getElementById('plotSize').value || 'Not applicable';
+      const packageSelected = document.getElementById('package').value;
       const message = document.getElementById('message').value || 'None';
       
-      const whatsappMessage = `*🏡 New Home Plan Request - BuildClarity*%0A%0A` +
-        `*Name:* ${name}%0A` +
-        `*Phone:* ${phone}%0A` +
-        `*Email:* ${email}%0A` +
-        `*City/State:* ${city}%0A` +
-        `*Plot Size:* ${plotSize}%0A` +
-        `*Package:* ${package}%0A` +
-        `*Requirements:* ${message}%0A%0A` +
-        `Please contact me to discuss further. Thank you!`;
+      const formData = new FormData();
+      formData.append('Name', name);
+      formData.append('Phone', phone);
+      formData.append('Email', email);
+      formData.append('City', city);
+      formData.append('Plot Size', plotSize);
+      formData.append('Service', packageSelected);
+      formData.append('Message', message);
+      formData.append('_subject', `🏡 New Service Request from ${name}`);
       
-      const whatsappURL = `https://wa.me/919574456327?text=${whatsappMessage}`;
-      window.open(whatsappURL, '_blank');
+      try {
+        const response = await fetch('https://formspree.io/f/maqvjwrn', {
+          method: 'POST',
+          body: formData,
+          headers: {
+            'Accept': 'application/json'
+          }
+        });
+        
+        if (response.ok) {
+          const whatsappMessage = `*🏡 New Service Request - BuildClarity*%0A%0A` +
+            `*Name:* ${name}%0A` +
+            `*Phone:* ${phone}%0A` +
+            `*Email:* ${email}%0A` +
+            `*City/State:* ${city}%0A` +
+            `*Plot Size:* ${plotSize}%0A` +
+            `*Service Required:* ${packageSelected}%0A` +
+            `*Requirements:* ${message}%0A%0A` +
+            `Please contact me to discuss further. Thank you!`;
+          
+          const whatsappURL = `https://wa.me/919574456327?text=${whatsappMessage}`;
+          
+          successMsg.classList.remove('hidden');
+          document.getElementById('contactForm').reset();
+          
+          setTimeout(() => {
+            window.open(whatsappURL, '_blank');
+          }, 800);
+          
+          successMsg.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          
+        } else {
+          throw new Error('Form submission failed');
+        }
+      } catch (error) {
+        errorMsg.classList.remove('hidden');
+        errorMsg.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = '📨 Send Request (Email + WhatsApp)';
+      }
     }
   </script>
 
